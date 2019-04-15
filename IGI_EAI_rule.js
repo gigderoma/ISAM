@@ -3,9 +3,10 @@ importClass(Packages.com.ibm.security.access.user.UserLookupHelper);
 importClass(Packages.com.ibm.security.access.user.User);
 importPackage(Packages.com.ibm.security.access.httpclient);
 
-
-
-// Infomap Example username & authentication level mapping rule.
+// Infomap Example username & Password module that authentication to IGI via REST API and returns PAC to Webseal
+// in a form that a valid formatted LTPA token can be created and sent to IGI via LTPA junction.
+// It also has a retry count mechanism to control failed login
+//
 //
 // A mapping rule invoked by the InfoMap authentication mechanism has the following parameters available
 //
