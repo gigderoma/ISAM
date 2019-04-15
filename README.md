@@ -1,2 +1,2 @@
 # ISAM
-All stuf relates to ISAM
+All stuf related to ISAM
